@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            // for MCQ
+            function checkChampion(content){
+                const correctPlaceholder = document.getElementById("correctChampion")
+
+                if (content.innerText != "Miami Heat"){
+                    content.style.background ="red";
+                    correctPlaceholder.innerText = "Incorrect";
+                }
+                else
+                {
+                    content.style.background ="green";
+                    correctPlaceholder.innerText = "Correct";
+                }
+            }
+
+            // for Free response
+            function checkTeam(){
+                const correctPlaceholder = document.getElementById("correctTeam");
+                const freeResponseAnswer = document.getElementById("freeResponse");
+
+                if (freeResponseAnswer.value != "Atlanta Hawks"){
+                    correctPlaceholder.innerText = "Incorrect";
+                    freeResponseAnswer.style.background = "red";
+                } else {
+                    correctPlaceholder.innerText = "Correct";
+                    freeResponseAnswer.style.background = "green";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Who won the 2012 NBA Championship?</h3>
+                <p id="correctChampion"></p>
+                <button onclick="checkChampion(this)">Miami Heat</button>
+                <button onclick="checkChampion(this)">Boston Celtics</button>
+                <button onclick="checkChampion(this)">Los Angeles Lakers</button>
+                <button onclick="checkChampion(this)">Oklahoma City Thunder</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Which team did Luka Doncic originally get drafted to?</h3>
+                <p id ="correctTeam"></p>
+                <form>
+                    <input type ="text" id = "freeResponse">
+                </form>
+                <button onclick="checkTeam()">Verify Answer</button>
+            </div>
+        </div>
+    </body>
+</html>

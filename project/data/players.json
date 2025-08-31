@@ -1,0 +1,66 @@
+{
+    "PG": [
+        {"name": "Stephen Curry", "pts": 24.4, "reb": 4.4, "ast": 6, "img": "/static/images/PG/curry.avif"},
+        {"name": "Tyrese Haliburton", "pts": 18.6, "reb": 3.5, "ast": 9.2, "img": "/static/images/PG/hali.webp"},
+        {"name": "Shai Gilgeous-Alexander", "pts": 32.7, "reb": 5, "ast": 6.4, "img": "/static/images/PG/shai.webp"},
+        {"name": "Luka Doncic", "pts": 28.2, "reb": 8.2, "ast": 7.7, "img": "/static/images/PG/luka.webp"},
+        {"name": "Tyrese Maxey", "pts": 26.3, "reb": 3.3, "ast": 6.1, "img": "/static/images/PG/maxey.webp"},
+        {"name": "Jalen Brunson", "pts": 26, "reb": 2.9, "ast": 7.3, "img": "/static/images/PG/brunson.webp"},
+        {"name": "LaMelo Ball", "pts": 25.2, "reb": 4.9, "ast": 7.1, "img": "/static/images/PG/lamelo.webp"},
+        {"name": "Damian Lillard", "pts": 24.9, "reb": 4.7, "ast": 7.1, "img": "/static/images/PG/lillard.avif"},
+        {"name": "Kyrie Irving", "pts": 24.7, "reb": 4.8, "ast": 4.6, "img": "/static/images/PG/kyrie.avif"},
+        {"name": "Trae Young", "pts": 24.2, "reb": 3.1, "ast": 11.6, "img": "/static/images/PG/trae.avif"}
+    ],
+
+    "SG": [
+        {"name": "Anthony Edwards", "pts": 27.4, "reb": 5.7, "ast": 4.5, "img": "/static/images/SG/ant.avif"},
+        {"name": "Devin Booker", "pts": 25.6, "reb": 4.1, "ast": 7.1, "img": "/static/images/SG/dbook.avif"},
+        {"name": "Donovan Mitchell", "pts": 24, "reb": 4.5, "ast": 5, "img": "/static/images/SG/spida.avif"},
+        {"name": "Cam Thomas", "pts": 24, "reb": 3.3, "ast": 3.8, "img": "/static/images/SG/cam.avif"},
+        {"name": "Tyler Herro", "pts": 23.9, "reb": 5.2, "ast": 5.5, "img": "/static/images/SG/herro.webp"},
+        {"name": "Zach LaVine", "pts": 23.4, "reb": 4.3, "ast": 4.2, "img": "/static/images/SG/lavine.avif"},
+        {"name": "James Harden", "pts": 22.6, "reb": 5.8, "ast": 8.7, "img": "/static/images/SG/harden.avif"},
+        {"name": "DeMar DeRozan", "pts": 22.4, "reb": 3.9, "ast": 4.4, "img": "/static/images/SG/demar.avif"},
+        {"name": "Jaylen Brown", "pts": 22.2, "reb": 5.8, "ast": 4.5, "img": "/static/images/SG/jb.avif"},
+        {"name": "Jalen Williams", "pts": 21.6, "reb": 5.3, "ast": 5.1, "img": "/static/images/SG/jdub.avif"}
+    ],
+
+    "SF": [
+        {"name": "Jayson Tatum", "pts": 26.8, "reb": 8.7, "ast": 6, "img": "/static/images/SF/tatum.webp"},
+        {"name": "Giannis Antetokounmpo", "pts": 30.4, "reb": 11.9, "ast": 6.5, "img": "/static/images/SF/giannis.webp"},
+        {"name": "Kevin Durant", "pts": 26.6, "reb": 6, "ast": 4.2, "img": "/static/images/SF/kd.avif"},
+        {"name": "Paolo Banchero", "pts": 25.9, "reb": 7.5, "ast": 4.8, "img": "/static/images/SF/paolo.avif"},
+        {"name": "LeBron James", "pts": 24.4, "reb": 7.8, "ast": 8.2, "img": "/static/images/SF/king.avif"},
+        {"name": "Franz Wagner", "pts": 24.2, "reb": 5.7, "ast": 4.7, "img": "/static/images/SF/franz.avif"},
+        {"name": "Miles Bridges", "pts": 20.3, "reb": 7.5, "ast": 3.9, "img": "/static/images/SF/bridges.webp"},
+        {"name": "Kawhi Leonard", "pts": 21.2, "reb": 5.9, "ast": 3, "img": "/static/images/SF/kawhi.png"},
+        {"name": "Trey Murphy III", "pts": 21.2, "reb": 5.1, "ast": 3.5, "img": "/static/images/SF/trey.webp"},
+        {"name": "RJ Barrett", "pts": 21.1, "reb": 6.3, "ast": 5.4, "img": "/static/images/SF/barrett.webp"}
+    ],
+
+    "PF": [
+        {"name": "Anthony Davis", "pts": 24.7, "reb": 11.6, "ast": 3.5, "img": "/static/images/PF/ad.avif"},
+        {"name": "Jaren Jackson Jr.", "pts": 22.2, "reb": 5.6, "ast": 2, "img": "/static/images/PF/jjj.avif"},
+        {"name": "Pascal Siakam", "pts": 20.2, "reb": 6.9, "ast": 3.4, "img": "/static/images/PF/pascal.avif"},
+        {"name": "Kristaps Porzingis", "pts": 19.5, "reb": 6.8, "ast": 2.1, "img": "/static/images/PF/kp.webp"},
+        {"name": "John Collins", "pts": 19, "reb": 8.2, "ast": 2, "img": "/static/images/PF/john.avif"},
+        {"name": "Lauri Markkanen", "pts": 19, "reb": 5.9, "ast": 1.5, "img": "/static/images/PF/lauri.avif"},
+        {"name": "Julius Randle", "pts": 18.8, "reb": 7, "ast": 4.7, "img": "/static/images/PF/randle.webp"},
+        {"name": "Cameron Johnson", "pts": 18.8, "reb": 4.3, "ast": 3.4, "img": "/static/images/PF/cj.avif"},
+        {"name": "OG Anunoby", "pts": 18, "reb": 4.8, "ast": 2.2, "img": "/static/images/PF/OG.webp"},
+        {"name": "Jalen Johnson", "pts": 18.9, "reb": 10, "ast": 5, "img": "/static/images/PF/jalen.avif"}
+    ],
+
+    "C": [
+        {"name": "Nikola Jokic", "pts": 29.8, "reb": 12.8, "ast": 10.3, "img": "/static/images/C/jokic.avif"},
+        {"name": "Karl Anthony Towns", "pts": 24.4, "reb": 12.8, "ast": 3.1, "img": "/static/images/C/KAT.webp"},
+        {"name": "Victor Wembanyama", "pts": 24.3, "reb": 11, "ast": 3.7, "img": "/static/images/C/wemby.avif"},
+        {"name": "Alperen Sengun", "pts": 19.2, "reb": 10.4, "ast": 4.9, "img": "/static/images/C/sengun.webp"},
+        {"name": "Domantas Sabonis", "pts": 19.1, "reb": 13.9, "ast": 6, "img": "/static/images/C/sabonis.avif"},
+        {"name": "Nikola Vucevic", "pts": 18.6, "reb": 10.1, "ast": 3.6, "img": "/static/images/C/vucevic.webp"},
+        {"name": "Evan Mobley", "pts": 18.5, "reb": 9.3, "ast": 3.2, "img": "/static/images/C/mobley.avif"},
+        {"name": "Bam Adebayo", "pts": 18.1, "reb": 9.6, "ast": 4.3, "img": "/static/images/C/bam.webp"},
+        {"name": "Ivica Zubac", "pts": 16.7, "reb": 12.6, "ast": 2.7, "img": "/static/images/C/zubac.avif"},
+        {"name": "Myles Turner", "pts": 15.6, "reb": 6.6, "ast": 1.5, "img": "/static/images/C/turner.webp"}
+    ]
+}

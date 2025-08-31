@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>NBA Draft</title>
+        <link href="/static/styles.css" rel="stylesheet">
+        <script>
+            function validateForm() {
+                const positions = ["PG", "SG", "SF", "PF", "C"];
+                for (let pos of positions) {
+                    const select = document.forms["draftForm"][pos];
+                    if (select.value === "") {
+                        alert("Please select a player for each position.");
+                        return false;
+                    }
+                }
+                return true;
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Pick Your Own Starting Five</h1>
+        <form name="draftForm" method="POST" onsubmit="return validateForm()">
+            {% for pos, players in draft_pool.items() %}
+                <label>{{ pos }}</label><br>
+                <select name="{{ pos }}">
+                    <option value="">-- Select a player --</option>
+                    {% for player in players %}
+                        <option value="{{ player.name }}">
+                            {{ player.name }} - {{ player.pts }} pts, {{ player.reb }} reb, {{ player.ast }} ast
+                        </option>
+                    {% endfor %}
+                </select><br><br>
+            {% endfor %}
+            <button type="submit">Submit Your Team</button>
+        </form>
+    </body>
+
+</html>

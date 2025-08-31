@@ -1,0 +1,161 @@
+/* Base layout */
+body {
+    background-color: #ffa500;
+    width: 85%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Header & Footer */
+header {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.site-footer {
+    font-family: "Times New Roman", Times, serif;
+    text-align: middle;
+    margin-top: 60px;
+    font-size: 0.9em;
+    color: #333;
+    padding: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Photos and Images */
+.circle-photo {
+    border-radius: 50%;
+    width: 500px;
+    height: auto;
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Team Layout */
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px auto;
+}
+
+.player img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Leaderboard */
+.leaderboard {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ol {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+/* Result Box for Winner + Scores */
+.results {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Each player's result card */
+.player-card {
+    background-color: white;
+    padding: 15px;
+    width: 180px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Buttons */
+.center-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-custom {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #444;
+}
+
+/* Section Spacing */
+.nba-section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.player-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* index body style */
+.index-body {
+    background-color: #ffa500;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.nav-links {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.content-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}

@@ -9,6 +9,6 @@ In the `project` folder, there is a README.md file that explains the different c
 
 In the `songs` folder, there are different files that uses SQL in order to filter information and songs from the database. It follows the instructions from Week 7 and can be found [here](https://cs50.harvard.edu/x/psets/7/songs/).
 
-Lastly, the `trivia` folder includes the code for the website submission I made for [week 8](the https://cs50.harvard.edu/x/psets/8/trivia/). This includes of HTML, CSS for styling, and some Java elements. The code was used to make NBA-based trivia questions with one being multiple choice and the other being free response. There are buttons to confirm the answers of the user and their choice will be highlighted in red for incorrect and green for correct. There are different functions such as `checkChampion` and `checkTeam` to check if the answers are correct.
+Lastly, the `trivia` folder includes the code for the website submission I made for [week 8](the https://cs50.harvard.edu/x/psets/8/trivia/). This includes of HTML, CSS for styling, and some Java elements. The code was used to make NBA-based trivia questions with one being multiple choice and the other being free response. There are buttons to confirm the answers of the user and their choice will be highlighted in red for incorrect and green for correct. There are different functions such as `checkChampion` and `checkTeam` to check if the answers are correct. The different IDs check for the correct inputs and update the different parts of the website.
 
 
